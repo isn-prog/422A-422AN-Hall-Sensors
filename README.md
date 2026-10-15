@@ -8,15 +8,19 @@ The original curved Hall PCB carried two black sensors marked **422A / 733** and
 
 Replacing all three original sensors with **SS41F** devices facing the same way resulted in buzzing and jerking with the original sensored controller. **Physically reversing only the middle SS41F**, while bending/rerouting its leads so that **VCC, GND and OUT remained connected to the correct PCB nets**, restored normal motor operation.
 
-![Completed working Hall PCB: reversed middle SS41F](images/working-middle-SS41F-reversed.jpg)
+<p align="center"><img src="working-middle-SS41F-reversed.jpg" alt="Working Hall PCB with middle SS41F physically reversed" width="640"></p>
+
+<p align="center"><em>Verified working repair: the middle replacement SS41F is reversed, with its leads rerouted to the correct PCB connections.</em></p>
 
 ## Evidence: original OEM parts
 
 | Original yellow/gold 422AN / 726 | Original black 422A / 733 |
 | --- | --- |
-| ![Yellow OEM 422AN](images/422AN-yellow-OEM.jpg) | ![Black OEM 422A](images/422A-black-OEM.jpg) |
+| ![Yellow OEM 422AN](422AN-yellow-OEM.jpg) | ![Black OEM 422A](422A-black-OEM.jpg) |
 
-![Original curved Hall PCB](images/original-hall-PCB.jpg)
+<p align="center"><img src="original-hall-PCB.jpg" alt="Original curved Hall sensor PCB" width="640"></p>
+
+*Original Hall-sensor PCB before replacement.*
 
 ## Observations and diagnostic reasoning
 
@@ -47,11 +51,11 @@ Replacing all three original sensors with **SS41F** devices facing the same way 
 
 ## Replacement packaging
 
-![SS41F replacement sensor packaging](images/SS41F-replacement-packaging.jpg)
+<img src="SS41F-replacement-packaging.jpg" alt="Packaging marked 41F-TO92-Bao" width="520">
 
 ## Illustrated technical report
 
-[Read the two-page PDF report](Nilox_X4_422A_422AN_SS41F_repair_report.pdf).
+**[Open the illustrated two-page PDF report](Nilox_X4_422A_422AN_SS41F_repair_report.pdf)**.
 
 ## Search keywords
 
